@@ -7,13 +7,13 @@ public class Main {
         persona.setTelefono(654632574);
 
         int edad = persona.getEdad();
-        System.out.println(edad);
+        System.out.println("Mi edad es " + edad);
 
         String nombre = persona.getNombre();
-        System.out.println(nombre);
+        System.out.println("Mi nombre es " + nombre);
 
         int telefono = persona.getTelefono();
-        System.out.println(telefono);
+        System.out.println("Mi teléfono es " + telefono);
     }
 }
 
