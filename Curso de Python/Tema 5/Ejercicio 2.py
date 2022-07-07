@@ -1,6 +1,6 @@
 #Escribe una función que pueda decirte si un número (número entero) es primo o no.
 
-num = int(input("escribe un numero "))
+num = int(input("¿Escribe un número? "))
 
 def numeroPrimo(num):
     if num < 2:
@@ -19,6 +19,6 @@ def numeroPrimo(num):
 resultado = numeroPrimo(num)
 
 if resultado == True:
-    print(num, "es un numero primo")
+    print(num, "es un número primo.")
 else:
-    print(num, "No es un numero primo")
+    print(num, "no es un número primo.")
