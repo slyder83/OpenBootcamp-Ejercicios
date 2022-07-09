@@ -22,4 +22,4 @@ class Coche(Vehiculo):
         self.cilindrada = cilindrada
 
 deportivo = Coche("verde", "4", "3", "120", "2000")
-print("Color: " + deportivo.color, ", ruedas: " + deportivo.ruedas,", puertas: " + deportivo.puertas, ", velocidad: " + deportivo.velocidad + " km/h", ", cilindrada: " + deportivo.cilindrada + " cc")
+print("Color:", deportivo.color, ", ruedas:", deportivo.ruedas,", puertas:", deportivo.puertas, ", velocidad:", deportivo.velocidad, "km/h", ", cilindrada:", deportivo.cilindrada, "cc")
