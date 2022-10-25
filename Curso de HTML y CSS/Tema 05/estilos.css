@@ -1,0 +1,16 @@
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+
+.galeria-imagen {
+    width: 300px;
+    border-radius: 15px;
+    opacity: 0.6;
+}
+
+.galeria-imagen:hover {
+    opacity: 1;
+    cursor: pointer;
+}
