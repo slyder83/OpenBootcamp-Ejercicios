@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-size: 1.5rem;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+div.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    background-color: #c2c2c2;
+    padding: 15px;
+}
+
+div.main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    
+    div.barra-lateral {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
