@@ -5,4 +5,5 @@ while (n > 1) {
     factorial *= n;
     n--;
 }
+
 console.log(factorial);
